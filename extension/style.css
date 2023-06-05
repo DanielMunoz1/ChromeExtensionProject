@@ -1,0 +1,433 @@
+html{
+  width: 320px;
+  background-color: #f4f4f4;
+  height: 350px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "Lato", Arial;
+}
+
+.reportText{
+  position: absolute;
+  top: 15px;
+  right: 40px;
+}
+
+.welcomeContainer{
+  position: absolute;
+  top: -52px;
+  right: 2px;
+}
+
+.whole{
+  background:rgb(255, 255, 255);
+  position: relative;
+  bottom:17px;
+  left:16px;
+  width:90%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height:343px;
+}
+
+.whole2{
+  position:relative;
+  top:40px;
+}
+
+/* below is used for popup.html */
+
+.separator{
+  position: relative;
+  left: 21px;
+  height: 1px;
+  background-color: #e6e6e6;
+  opacity: 0.5;
+  top: 53px;
+  width: 246px;
+
+}
+
+/* This is used for popup.html */
+
+.separator2{
+  position: relative;
+  left: 21px;
+  height: 1px;
+  background-color: #e6e6e6;
+  opacity: 0.5;
+  top: 212px;
+  width: 246px;
+
+}
+
+.header{
+  position:relative;
+  bottom: 12px;
+  margin:16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotext{
+  left: -30px;
+  top: 1px;
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+}
+
+.smallogotext{
+  position: relative;
+  top: 3px;
+  left: -68px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+.logotext2{
+  position: relative;
+  left: -101px;
+  top: 1px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+}
+
+.smallogotext2{
+  position:relative;
+  left: -135px;
+  top:3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+.name{
+  position:relative;
+  bottom:50px;
+}
+
+
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top:10px;
+}
+
+.counter {
+  left: 15px;
+  position: relative;
+  top: 85px;
+  color: rgb(0, 0, 0);
+  word-wrap: break-word;
+  font-size: medium;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.Totalcount {
+  left: 69px;
+  position: relative;
+  top: 54px;
+  color: rgb(0, 0, 0);
+  word-wrap: break-word;
+  font-size: medium;
+  font-family: sans-serif;
+}
+
+.Logout{
+  bottom: -102px;
+  align-items: center;
+  background-image: linear-gradient(144deg,#2600ff, #402bc4 50%,#00DDEB);
+  border: 0;
+  border-radius: 30px;
+  box-shadow: rgb(151 65 252 / 20%) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 0em;
+  max-width: 100%;
+  min-width: 40px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  position: relative;
+  right: -93px;
+}
+
+/* CSS */
+
+/* Popup.html link */
+
+.popupLink{
+  font-size: 15px;
+  top: 275px;
+  position: absolute;
+  left: 16px;
+}
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+/*Home button*/
+
+
+.Home {
+  position: relative;
+  left: 55px;
+  bottom: 15px;
+  align-items: center;
+  background-image: linear-gradient(144deg,#2600ff, #402bc4 50%,#00DDEB);
+  border: 0;
+  border-radius: 30px;
+  box-shadow: rgb(151 65 252 / 20%) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 0em;
+  max-width: 100%;
+  min-width: 40px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.Home:active,
+.Home:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .Home {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/*End of Home button */
+
+.Loginpage{
+  position: relative;
+  bottom: -90px;
+  right: -24px;
+}
+
+.Login {
+  bottom: 15px;
+  align-items: center;
+  background-image: linear-gradient(144deg,#2600ff, #402bc4 50%,#00DDEB);
+  border: 0;
+  border-radius: 30px;
+  box-shadow: rgb(151 65 252 / 20%) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 0em;
+  max-width: 100%;
+  min-width: 40px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.Login:active,
+.Login:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .Login {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/*end of Login*/
+
+.Registerpage{
+  position: relative;
+  right: -157px;
+  bottom: -52px;
+}
+
+.Register {
+  align-items: center;
+  background-image: linear-gradient(144deg,#2600ff, #402bc4 50%,#00DDEB);
+  border: 0;
+  border-radius: 30px;
+  box-shadow: rgb(151 65 252 / 20%) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 0em;
+  max-width: 130%;
+  min-width: 40px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.Register:active,
+.Register:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .Register {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+/*end of register*/
+
+p {
+  width:49.9%;
+display:inline;
+text-align:left;
+text-align:right;
+}
+
+input[type=text] {
+  /* input elements with type="text" attribute */
+  text-align:center;
+  margin: 0 auto;
+  display: block;
+}
+
+/* CSS */
+.button-48 {
+  appearance: none;
+  background-color: #0019fc;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  /*padding: 1.5em 2.2em;*/
+  padding: 0.4em;
+
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-48:before {
+  opacity: 0.5;
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #9cc8fa;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.button-48:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.button-48:after {
+  background-color: #ffffff;
+}
+
+.button-48 span {
+  z-index: 1;
+  position: relative;
+}
+
+body {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: auto;
+}
+
+#indicators {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #999;
+}
+
+#repo-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+
+
+
+
